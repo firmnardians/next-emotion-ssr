@@ -6,12 +6,12 @@ import { IconClock } from 'senirupa';
 export default function ListProduct({ data }) {
 	return (
 		<a href={data.product_url}>
-			<div className={`row mb-2 pointer ${card}`}>
+			<div className={`row g-0 mb-4 pointer ${card}`}>
 				<div className='col-auto'>
 					<Image src={data.product_img} alt={data.product_name} width='80' height='80' className={imgProduct} />
 				</div>
 
-				<div className='col-10 justify-content-center ps-2 ps-md-2 pt-2 pt-md-0'>
+				<div className='col-10 justify-content-center ps-0 ps-md-4 pt-2 pt-md-0'>
 					<div className=''>
 						<h6 className='fw-bold'>{data.product_name}</h6>
 						<p className='text-muted'>{data.product_desc}</p>
@@ -31,7 +31,7 @@ export default function ListProduct({ data }) {
 }
 
 const card = css`
-	padding: 14px;
+	padding: 10px;
 	border-radius: 8px;
 
 	&:hover {

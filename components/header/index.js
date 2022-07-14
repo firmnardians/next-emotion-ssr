@@ -23,6 +23,11 @@ const headerApp = css`
 	backdrop-filter: saturate(180%) blur(20px);
 	background-color: hsla(0, 0%, 100%, 0.72);
 	border-bottom: 1px solid #cacaca;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 10;
 `;
 
 const wrapContent = css`

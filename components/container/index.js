@@ -13,4 +13,5 @@ export default function Container({ children }) {
 const containerApp = css`
 	max-width: ${CONTAINER_WIDTH}px;
 	margin: auto;
+	padding-top: 50px;
 `;
