@@ -1,9 +1,9 @@
 import { css } from '@emotion/css';
 import Image from 'next/image';
-import React from 'react';
+import React, { memo } from 'react';
 import { IconClock } from 'senirupa';
 
-export default function ListProduct({ data }) {
+export default memo(function ListProduct({ data }) {
 	return (
 		<a href={data.product_url}>
 			<div className={`row g-0 mb-4 pointer ${card}`}>
@@ -28,7 +28,7 @@ export default function ListProduct({ data }) {
 			</div>
 		</a>
 	);
-}
+});
 
 const card = css`
 	padding: 10px;

@@ -9,9 +9,10 @@ import '../styles/globals.css';
 function MyApp({ Component, pageProps }) {
 	return (
 		<Fragment>
-			{/* default meta */}
-			<DefaultMeta />
-			{/* default meta */}
+			<DefaultMeta
+				title='Ade Firman Ardiansyah - Firmnardians'
+				description='A front-end developer with 2 years of experience. I have extensive experience with the React ecosystem and i also like to launch some products.'
+			/>
 
 			<Header />
 			<Container>

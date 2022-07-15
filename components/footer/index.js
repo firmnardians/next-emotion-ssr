@@ -1,9 +1,9 @@
 import { css } from '@emotion/css';
-import React from 'react';
+import React, { memo } from 'react';
 
 const getYear = new Date().getFullYear();
 
-export default function Footer() {
+export default memo(function Footer() {
 	return (
 		<footer className={footer}>
 			<div className={wrapFooter}>
@@ -12,7 +12,7 @@ export default function Footer() {
 			</div>
 		</footer>
 	);
-}
+});
 
 const wrapFooter = css`
 	align-items: center;

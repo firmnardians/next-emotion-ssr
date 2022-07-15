@@ -1,10 +1,10 @@
 import { css } from '@emotion/css';
 import Link from 'next/link';
-import React from 'react';
+import React, { memo } from 'react';
 import { LogoApp } from '../../assets/svg';
 import { CONTAINER_WIDTH } from '../../config';
 
-export default function Header() {
+export default memo(function Header() {
 	return (
 		<header className={headerApp}>
 			<div className={wrapContent}>
@@ -13,11 +13,32 @@ export default function Header() {
 						<LogoApp size='36' />
 					</div>
 				</Link>
+
+				<div className={`${wrapList} d-flex align-items-center justify-content-center`}>
+					<ul>
+						<Link href='https://pagespeed.web.dev/report?url=https%3A%2F%2Ffirmnardians.vercel.app'>
+							<a target='_blank'>
+								<li>
+									<p>PageSpeed</p>
+								</li>
+							</a>
+						</Link>
+					</ul>
+				</div>
 			</div>
 		</header>
 	);
-}
+});
 
+const wrapList = css`
+	ul {
+		margin: 0;
+
+		li {
+			list-style: none;
+		}
+	}
+`;
 const headerApp = css`
 	background: #fafafa;
 	backdrop-filter: saturate(180%) blur(20px);
