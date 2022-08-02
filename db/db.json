@@ -101,9 +101,9 @@
 		},
 		{
 			"product_name": "Button Generator",
-			"product_desc": "Make buttons without getting angry.",
+			"product_desc": "Make buttons without getting dizzy anymore.",
 			"product_img": "/img/button.png",
-			"product_url": "https://custom-button.netlify.app",
+			"product_url": "https://btn-generator.netlify.app",
 			"product_year": "2019",
 			"product_type": "Website"
 		}
