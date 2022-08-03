@@ -38,7 +38,7 @@
 		{
 			"product_name": "Wasap",
 			"product_desc": "Cara mudah untuk mengabari seseorang di WhatsApp tanpa harus simpan nomor.",
-			"product_img": "https://wasap.netlify.app/logo192.png",
+			"product_img": "https://wasap.netlify.app/_next/image?url=%2Flogo.png&w=256&q=75",
 			"product_url": "https://wasap.netlify.app",
 			"product_year": "2021",
 			"product_type": "Website"
@@ -92,10 +92,10 @@
 			"product_type": "Android"
 		},
 		{
-			"product_name": "🌈 Cashback 🙋‍♂️",
-			"product_desc": "#MakanTuhCashback - Website untuk menghitung cashback dengan maksimal cashback.",
+			"product_name": "Kesbek 🤑",
+			"product_desc": "Hitung cashback dengan harga maksimal tanpa ribet. #MakanTuhCashback ",
 			"product_img": "/img/cashback.png",
-			"product_url": "https://makantuhcashback.netlify.app",
+			"product_url": "https://kesbek.netlify.app",
 			"product_year": "2019",
 			"product_type": "Website"
 		},
