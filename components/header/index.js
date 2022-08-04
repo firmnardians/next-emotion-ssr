@@ -1,6 +1,7 @@
 import { css } from '@emotion/css';
 import Link from 'next/link';
 import React, { memo } from 'react';
+import { IconLink } from 'senirupa';
 import { LogoApp } from '../../assets/svg';
 import { CONTAINER_WIDTH } from '../../config';
 
@@ -14,17 +15,21 @@ export default memo(function Header() {
 					</div>
 				</Link>
 
-				<div className={`${wrapList} d-flex align-items-center justify-content-center`}>
+				<nav className={`${wrapList} d-flex align-items-center justify-content-center`}>
 					<ul>
-						<Link href='https://pagespeed.web.dev/report?url=https%3A%2F%2Ffirmnardians.vercel.app'>
-							<a target='_blank'>
-								<li>
-									<p>PageSpeed</p>
-								</li>
-							</a>
+						<Link href='/donate'>
+							<li>
+								<p className='pointer'>Donate</p>
+							</li>
 						</Link>
+
+						<a target='_blank' href='https://pagespeed.web.dev/report?url=https%3A%2F%2Ffirmnardians.vercel.app' rel='noreferrer'>
+							<li>
+								<p>PageSpeed</p>
+							</li>
+						</a>
 					</ul>
-				</div>
+				</nav>
 			</div>
 		</header>
 	);
@@ -33,9 +38,23 @@ export default memo(function Header() {
 const wrapList = css`
 	ul {
 		margin: 0;
+		display: flex;
+		align-items: center;
 
 		li {
 			list-style: none;
+			padding-left: 25px;
+			display: flex;
+			align-items: center;
+
+			p {
+				color: #333333;
+				font-weight: 500;
+			}
+
+			p:hover {
+				color: black;
+			}
 		}
 	}
 `;
