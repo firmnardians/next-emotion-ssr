@@ -42,6 +42,14 @@
 	},
 	"products": [
 		{
+			"product_name": "Metadata Scraper",
+			"product_desc": "Tool for scraping or parsing metadata from a web page.",
+			"product_img": "/img/metadata.png",
+			"product_url": "https://metascrap.netlify.app",
+			"product_year": "2022",
+			"product_type": "Website"
+		},
+		{
 			"product_name": "Saiki Link",
 			"product_desc": "Link Shortener. Fast, simple and open source.",
 			"product_img": "/img/saiki.png",
