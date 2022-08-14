@@ -42,6 +42,14 @@
 	},
 	"products": [
 		{
+			"product_name": "Kata Data",
+			"product_desc": "Web helps to check spelling and typo in Bahasa Indonesia.",
+			"product_img": "/img/katadata.png",
+			"product_url": "https://katadata.netlify.app",
+			"product_year": "2022",
+			"product_type": "Website"
+		},
+		{
 			"product_name": "Metadata Scraper",
 			"product_desc": "Tool for scraping or parsing metadata from a web page.",
 			"product_img": "/img/metadata.png",
