@@ -16,8 +16,8 @@ export default function Donate() {
 					<div className='pb-4'>
 						<h4 className='fw-bold'>Donate</h4>
 						<small className='text-muted'>
-							If you are helped by the product I made. I accept donations so that all products can continue to run and can continue to
-							make new products.
+							If you are helped by my product. I accept donations, so that all products can continue to operate and can continue create
+							new products open source.
 						</small>
 					</div>
 
