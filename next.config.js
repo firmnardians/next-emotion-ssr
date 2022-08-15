@@ -3,7 +3,7 @@ const nextConfig = {
 	reactStrictMode: true,
 	swcMinify: true,
 	images: {
-		domains: ['pbs.twimg.com', 'wasap.netlify.app', 'folderin.com'],
+		domains: ['pbs.twimg.com', 'wasap.dev', 'folderin.com'],
 	},
 };
 

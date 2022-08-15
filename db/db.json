@@ -9,12 +9,12 @@
 				"url": "https://github.com/firmnardians"
 			},
 			{
-				"name": "Twitter",
-				"url": "https://twitter.com/firmnardians"
-			},
-			{
 				"name": "Medium",
 				"url": "https://medium.com/@firmnardians"
+			},
+			{
+				"name": "Twitter",
+				"url": "https://twitter.com/firmnardians"
 			}
 		],
 		"donate": [
@@ -75,9 +75,9 @@
 		},
 		{
 			"product_name": "Wasap",
-			"product_desc": "Cara mudah untuk mengabari seseorang di WhatsApp tanpa harus simpan nomor.",
-			"product_img": "https://wasap.netlify.app/_next/image?url=%2Flogo.png&w=256&q=75",
-			"product_url": "https://wasap.netlify.app",
+			"product_desc": "An easy way to notify someone on WhatsApp without having to save the number.",
+			"product_img": "https://wasap.dev/_next/image?url=%2Flogo.png&w=256&q=75",
+			"product_url": "https://wasap.dev",
 			"product_year": "2021",
 			"product_type": "Website"
 		},
@@ -107,7 +107,7 @@
 		},
 		{
 			"product_name": "PINJOL",
-			"product_desc": "Cek fintech yang terdaftar di OJK. Cek kredibilitas fintech di Indonesia, hanya yang terdaftar di OJK yang jauh lebih aman.",
+			"product_desc": "Check fintech registered with OJK. Check the credibility of fintech in Indonesia, only those registered with the OJK are much safer.",
 			"product_img": "/img/pinjol.jpg",
 			"product_url": "https://play.google.com/store/apps/details?id=com.pinjolappid&hl=in",
 			"product_year": "2020",
@@ -115,7 +115,7 @@
 		},
 		{
 			"product_name": "KESBEK",
-			"product_desc": "Aplikasi yang dibuat untuk membantu menghitung Cashback dengan cepat, gratis selamanya, tanpa iklan, simpel dan efisien.",
+			"product_desc": "Application created to help calculate Cashback quickly, free forever, without ads, simple and efficient.",
 			"product_img": "/img/kesbek.jpg",
 			"product_url": "https://play.google.com/store/apps/details?id=com.kesbek&hl=in",
 			"product_year": "2020",
@@ -123,7 +123,7 @@
 		},
 		{
 			"product_name": "REHAT",
-			"product_desc": "REHAT sebuah aplikasi untuk menjernihkan pikiran dari hiruk pikuk duniawi.",
+			"product_desc": "An application to clear the mind from the hustle and bustle of the world.",
 			"product_img": "/img/rehat.jpg",
 			"product_url": "https://play.google.com/store/apps/details?id=com.rehat&hl=in",
 			"product_year": "2019",
@@ -131,7 +131,7 @@
 		},
 		{
 			"product_name": "Kesbek 🤑",
-			"product_desc": "Hitung cashback dengan harga maksimal tanpa ribet. #MakanTuhCashback ",
+			"product_desc": "Calculate cashback with maximum price without any hassle. #MakanTuhCashback ",
 			"product_img": "/img/cashback.png",
 			"product_url": "https://kesbek.netlify.app",
 			"product_year": "2019",
