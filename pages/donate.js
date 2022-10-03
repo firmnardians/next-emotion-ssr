@@ -28,7 +28,7 @@ export default function Donate() {
 								<div className='ps-3 pt-3'>
 									{item.is_link ? (
 										<a href={item.key}>
-											<p>{item.key}</p>
+											<p className='text-primary'>{item.key}</p>
 										</a>
 									) : (
 										<p>{item.key}</p>
